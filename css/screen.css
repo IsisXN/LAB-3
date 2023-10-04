@@ -192,23 +192,22 @@ img, audio, video {
 */
 
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 1.375em; 
+  line-height: 1.182em; 
   text-rendering: optimizeLegibility;
+  padding: 1.182em;
 }
 
 h1{
 	text-align: center;
+	line-height: 1.182em;
 	font-size: 2.292em; 
-	line-height: 1.182em;/* without this line height, H1 doesn't look right, you mentioned doubling the line-height, but that looks too big. So I added the same line height but to the h1 and it works and I don't know why */
-	padding-bottom: 1.182em; /* 26px / ~ 120% */
+	padding-bottom: 1.182em; 
 }
 
 p{
   text-align: center;
-	padding-bottom: 1.182em; /* 26px / ~ 120% */
-	/* adds "modular" padding between each p tag */
+	padding-bottom: 1.182em; 
 }
 
 #wrap{
@@ -216,25 +215,32 @@ p{
 	margin: 0 auto;
 }
 label {
-  display: inline;  /* allows input to flow next to label  */
+  display: inline; 
 }
 
 input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
   box-sizing: border-box;
   width: 100%;
   height: 60px;
   border: 0;
   border-radius: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  background-color: #D2D2D2;
+  background-color: #32a85c;
 }
 
 input[type="email"] {
   width: 50%;
-	height: 1.182em; /* 26px / ~ 120% */
+	height: 1.182em;
 	padding: 26px;
+}
+
+{
+	font-size: 2.292em; 
+	line-height: 1.182em;
+	padding-bottom: 1.182em;
+	text-align: center;
 }
 
 input[type="checkbox"] {
