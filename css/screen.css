@@ -230,58 +230,19 @@ input {
   background-color: #a4a6a5;
 }
 
-input[type="email"] {
-  width: 50%;
-	height: 1.182em;
-	padding: 26px;
+#input-age-verification label, input {
+  vertical-align: center;
+  display: inline-block;
+  padding-right: 0.5em;
 }
-
-{
-	font-size: 2.292em; 
-	line-height: 1.182em;
-	padding-bottom: 1.182em;
-	text-align: center;
+#input-email label, input {
+  vertical-align: center;
+  display: inline-block;
+  padding-right: 0.25em;
 }
-
-input[type="checkbox"] {
-  float: left;
-  height: 1em;
-  width: 1em;
-  background-color: #DDD;
-  border: 2px solid #8a8a8a;
-  border-radius: 4px;
-}
-
-{
-	text-align: center;
-	font-size: 2.292em; 
-	line-height: 1.182em;
-	padding-bottom: 1.182em;
-}
-
-#age-label {
-  padding-left: 0.5em;
-}
-
-{
-	font-size: 2.292em; 
-	line-height: 1.182em;
-	padding-bottom: 1.182em;
-	text-align: center;
-}
-
-input[type="submit"] {
-	width: 200px;
-  border-radius: 10px;
-	background-color: #373637;
-	color: #FFFFFF;
-}
-
-{
-	font-size: 2.292em; 
-	line-height: 1.182em;
-	padding-bottom: 1.182em;
-	text-align: center;
+#input-submit input {
+  display: flex;
+  float: right;
 }
 
 form li {
