@@ -252,10 +252,6 @@ input[type="checkbox"] {
   border-radius: 4px;
 }
 
-#age-label {
-  padding-left: 0.5em;
-}
-
 #input-email label, input {
   vertical-align: center;
   display: inline-block;
