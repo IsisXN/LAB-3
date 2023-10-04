@@ -252,7 +252,7 @@ input[type="checkbox"] {
   border-radius: 4px;
 }
 
-#input-email label, input {
+#input-email input {
   vertical-align: center;
   display: inline-block;
   padding-right: 0.25em;
