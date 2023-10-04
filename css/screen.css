@@ -280,18 +280,6 @@ p {
     font-family: Verdana, Tahoma, "Courier New", sans-serif;
   }
   
- #input-submit input {
-    background-color: #e3e3e3;
-    outline-color: white;
-  }
-  #input-email input {
-    background-color: #e3e3e3;
-    outline-color: white;
-  }
-  #input-age-verification input{
-    outline-color: white;
-    background-color: #e3e3e3;
-  }
 
 form li {
   padding-bottom: 1.182em; 
