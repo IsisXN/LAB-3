@@ -268,9 +268,9 @@ input[type="checkbox"] {
 
 input[type="submit"] {
 	width: 200px;
-  border-radius: 10px;
+	border-radius: 10px;
 	background-color: #e3e3e3;
-	color: ;
+	vertical-align: center;
 }
 
 p {
