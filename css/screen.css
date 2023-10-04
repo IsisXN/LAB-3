@@ -207,7 +207,7 @@ main {
 }
 
 html{
-  font-family: 'Fanwood Text', Tahoma, Verdana, sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
   background-color: #89c9a5;
 }
 
@@ -250,7 +250,6 @@ input[type="checkbox"] {
   background-color: #DDD;
   border: 3px solid #8a8a8a;
   border-radius: 4px;
-  padding-left: 0.5em;
 }
 
 #age-label {
@@ -267,6 +266,13 @@ input[type="checkbox"] {
   float: right;
 }
 
+input[type="submit"] {
+	width: 200px;
+  border-radius: 10px;
+	background-color: #373637;
+	color: #FFFFFF;
+}
+
 p {
   padding-bottom: 1.182em;
   padding-top: 1.182em;
@@ -277,18 +283,6 @@ p {
 }
 
 
-@media (max-width: 800px) {
-  #info{
-    flex-wrap: nowrap;
-    margin: auto;
-  }
-  html {
-    background-color: #89c9a5;
-    font-size: 1.2em;
-    text-rendering: optimizeLegibility;
-    font-family: Verdana, Tahoma, "Courier New", sans-serif;
-  }
-  
 
 form li {
   padding-bottom: 1.182em; 
