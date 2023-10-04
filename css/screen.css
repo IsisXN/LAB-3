@@ -245,6 +245,19 @@ input {
   float: right;
 }
 
+ #input-submit input {
+    background-color: #DCDCDC;
+    outline-color: white;
+  }
+  #input-email input {
+    background-color: #DCDCDC;
+    outline-color: white;
+  }
+  #input-age-verification input{
+    outline-color: white;
+    background-color: #DCDCDC;
+  }
+
 form li {
   padding-bottom: 1.182em; /* 26px / ~ 120% */  
 	/* adding a padding to each li so that they aren't so close together */
