@@ -227,7 +227,7 @@ input {
   height: 60px;
   border: 0;
   border-radius: 0;
-  background-color: #32a85c;
+  background-color: #a4a6a5;
 }
 
 input[type="email"] {
@@ -252,8 +252,22 @@ input[type="checkbox"] {
   border-radius: 4px;
 }
 
+{
+	text-align: center;
+	font-size: 2.292em; 
+	line-height: 1.182em;
+	padding-bottom: 1.182em;
+}
+
 #age-label {
   padding-left: 0.5em;
+}
+
+{
+	font-size: 2.292em; 
+	line-height: 1.182em;
+	padding-bottom: 1.182em;
+	text-align: center;
 }
 
 input[type="submit"] {
@@ -261,6 +275,13 @@ input[type="submit"] {
   border-radius: 10px;
 	background-color: #373637;
 	color: #FFFFFF;
+}
+
+{
+	font-size: 2.292em; 
+	line-height: 1.182em;
+	padding-bottom: 1.182em;
+	text-align: center;
 }
 
 form li {
