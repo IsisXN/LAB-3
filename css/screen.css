@@ -261,10 +261,7 @@ input[type="checkbox"] {
   display: inline-block;
   padding-right: 0.25em;
 }
-#input-submit input {
-  display: flex;
-  float: right;
-}
+
 
 input[type="submit"] {
 	width: 200px;
@@ -277,12 +274,6 @@ p {
   padding-bottom: 1.182em;
   padding-top: 1.182em;
 }
-#input-email label {
-  padding-top: 1.182em;
-  padding-bottom: 1.182em;
-}
-
-
 
 form li {
   padding-bottom: 1.182em; 
