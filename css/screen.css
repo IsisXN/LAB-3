@@ -206,6 +206,11 @@ main {
   flex-wrap: nowrap;
 }
 
+html{
+  font-family: 'Fanwood Text', Tahoma, Verdana, sans-serif;
+  background-color: #89c9a5;
+}
+
 h1{
 	text-align: center;
 	line-height: 1.182em;
@@ -269,7 +274,6 @@ p {
     margin: auto;
   }
   html {
-    color: green;
     background-color: #89c9a5;
     font-size: 1.2em;
     text-rendering: optimizeLegibility;
