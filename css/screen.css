@@ -281,16 +281,16 @@ p {
   }
   
  #input-submit input {
-    background-color: #DCDCDC;
+    background-color: #e3e3e3;
     outline-color: white;
   }
   #input-email input {
-    background-color: #DCDCDC;
+    background-color: #e3e3e3;
     outline-color: white;
   }
   #input-age-verification input{
     outline-color: white;
-    background-color: #DCDCDC;
+    background-color: #e3e3e3;
   }
 
 form li {
