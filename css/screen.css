@@ -198,6 +198,14 @@ html {
   padding: 1.182em;
 }
 
+main {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 h1{
 	text-align: center;
 	line-height: 1.182em;
