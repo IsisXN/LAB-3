@@ -239,12 +239,9 @@ input {
   border: 3px solid #8a8a8a;
   border-radius: 4px;
   background-color: #e3e3e3;
-  vertical-align: center;
-  display: inline-block;
-  padding-right: 0.25em;
 }
 
-input[type="checkbox"] {
+#input-checkbox {
   float: left;
   height: 1em;
   width: 1em;
