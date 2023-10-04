@@ -245,6 +245,16 @@ input {
   float: right;
 }
 
+p {
+  padding-bottom: 1.182em;
+  padding-top: 1.182em;
+}
+#input-email label {
+  padding-top: 1.182em;
+  padding-bottom: 1.182em;
+}
+
+
 @media (max-width: 800px) {
   #info{
     flex-wrap: nowrap;
